@@ -1,0 +1,130 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    align-items: flex-start;
+    margin-left: 164px;
+  }
+}
+
+.stopwatch-heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-heading {
+    font-size: 48px;
+  }
+}
+
+.stop-watch-container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 1150px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .stop-watch-container {
+    max-width: 300px;
+  }
+}
+
+.timer-image-heading-container {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.timer-image {
+  height: 15px;
+  width: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-image {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.timer-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-heading {
+    font-size: 20px;
+  }
+}
+
+.stop-timer {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .stop-timer {
+    font-size: 45px;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #ffffff;
+  padding: 8px;
+  margin: 4px;
+  border: none;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+.start-btn {
+  background-color: #1db05f;
+}
+
+.stop-btn {
+  background-color: #ef0d36;
+}
+
+.reset-btn {
+  background-color: #eaa800;
+}
